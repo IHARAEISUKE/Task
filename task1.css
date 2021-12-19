@@ -12,22 +12,29 @@
 }
 
 .main-contents {
+  width: auto;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.main-contents > div:nth-child(1) {
+.main-step1 {
   width: 300px;
   height: 300px;
   margin-top: 50px;
   margin-bottom: 50px;
   padding-left: 10px;
   padding-right: 10px;
-  background-image: url(chapter9_exercise/img/flow01.png);
   background-position: 10px 10px;
-  background-size: cover;
   background-color: #eeeeee;
+}
+
+.main-step1-image {
+  height: 150px;
+  margin: 10px 10px 15px 10px;
+  background-image: url(chapter9_exercise/img/flow01.png);
+  background-size: contain;
 }
 
 .main-contents > div:nth-child(2) {
@@ -37,10 +44,14 @@
   margin-bottom: 50px;
   padding-left: 10px;
   padding-right: 10px;
-  background-image: url(chapter9_exercise/img/flow02.png);
-  background-position: center;
-  background-size: cover;
   background-color: #eeeeee;
+}
+
+.main-step2-image {
+  height: 150px;
+  margin: 10px 10px 15px 10px;
+  background-image: url(chapter9_exercise/img/flow02.png);
+  background-size: contain;
 }
 
 .main-contents > div:nth-child(3) {
@@ -50,10 +61,15 @@
   margin-bottom: 50px;
   padding-left: 10px;
   padding-right: 10px;
-  background-image: url(chapter9_exercise/img/flow03.png);
-  background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-color: #eeeeee;
+}
+
+.main-step3-image {
+  height: 150px;
+  margin: 10px 10px 15px 10px;
+  background-image: url(chapter9_exercise/img/flow03.png);
+  background-size: contain;
 }
 
 .footer-text {
